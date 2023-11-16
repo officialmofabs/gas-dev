@@ -3,7 +3,9 @@
     "dockerFile": "Dockerfile",
     "customizations": {
         "vscode": {
-            "settings": {},
+            "settings": {
+                "git.ignoreMissingGitWarning": true
+            },
             "extensions": []
         }
     },

@@ -1,4 +1,5 @@
 FROM mcr.microsoft.com/devcontainers/typescript-node
 
-RUN apt-get update
-RUN apt-get -y install git
+# Update apt-get and install git
+RUN apt-get update && \
+    apt-get -y install git
